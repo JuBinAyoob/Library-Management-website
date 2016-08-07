@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+.but{ 
+border:1px solid #6C6C6C; 
+background-color:#6C6C6C; 
+color:#EAEAEA; 
+height:30px; 
+padding:0px 20px; 
+margin:5px 0px; 
+border-radius:3px; 
+font-size:11px;
+}
+
+*{ 
+	font-family:"Segoe UI"; 
+	margin:0px; padding:0px;
+} 
+
+::selection{ 
+		color:#FFF; 
+		background-color:#000;
+	}
+
+body{ 
+		min-width:1000px;
+	}
+
+.content{ 
+		width:960px; 
+		padding:0px 20px; 
+		margin:0px auto; 
+		position:relative	
+	} .clear{ clear:both}
+
+.left{ 
+		float:left;
+	} 
+	
+.right{ 
+		float:right
+	}
+
+.text_left{ 
+		text-align:left;
+	} 
+	
+.text_center{ 
+		text-align:center;
+	} 
+	
+.text_justify{ 
+		text-align:justify;
+	} 
+	
+.text_right{ 
+		text-align:right;
+	}
+
+.thin{ 
+		font-weight:normal; 
+		letter-spacing:-0.5px;
+	} 
+	
+p{
+	font-size:13px;
+}
+
+a{	
+	color:inherit; 
+	text-decoration:none
+} 
+
+ul{ 
+	list-style:none
+}
+
+
+input[type=text],input[type=password],textarea,select{ border:1px solid #D5D5D5; height:30px; width:200px; margin:5px 0px; border-radius:3px; padding:0px 10px;}
+textarea{ padding:10px; height:80px;}
+input[type=reset]{margin-left:10px;}
+.dob{ width:65px;}
+
+.main_header{ width:100%; height:auto; min-height:20px; background-color:#424242; color:#FFF; }
+.menu{ font-size:13px; padding:15px 10px;}
+.menu:hover{ background-color:#242424;}
+.banner{ height:auto; width:100%; background-color:#F5F5F5; padding-top:100px; padding-bottom:20px; }
+.main_logo{ width:330px; height:100px; background-image:url(../img/logo.png); margin:auto;  }
+.main_search{ margin:auto; padding:50px; background-color:#EAEAEA; width:600px; height:auto;}
+
+.main_search input{ height:45px; margin:5px; border-radius:0px;}
+.four{ width:180px; height:120px; background-color:#F9F9F9; padding:20px; margin:20px 10px; border-bottom:2px solid #D5D5D5;}
+.four p{ color:#7A7A7A;}
+
+
+.login_form{ width:250px; height:120px; background-color:#EAEAEA; padding:50px 25px;}3

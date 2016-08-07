@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+.but{ 
+border:1px solid #6C6C6C; 
+background-color:#6C6C6C; 
+color:#EAEAEA; 
+height:30px; 
+padding:0px 20px; 
+margin:5px 0px; 
+border-radius:3px; 
+font-size:11px;
+}
