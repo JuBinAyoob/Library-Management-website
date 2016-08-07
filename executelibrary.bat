@@ -1,0 +1,1 @@
+F:\xampp\php\php.exe -f F:\xampp\htdocs\S6miniproject\runeveryday.php
